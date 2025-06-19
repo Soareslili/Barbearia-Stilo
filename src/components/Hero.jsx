@@ -28,10 +28,12 @@ export function Hero() {
           style={{ backgroundColor: 'rgba(0,0,0,0.70)' }}
         ></div>
 
-
         <header
-          className={`fixed top-0 left-0 z-50 flex h-16 w-full items-center justify-between transition-colors duration-300 ${scrolled ? 'bg-white shadow-md' : 'bg-transparent'
-            }`}
+          className={`fixed top-0 left-0 z-50 flex h-16 w-full items-center justify-between transition-colors duration-300 ${
+            scrolled
+              ? 'bg-black/70 shadow-md backdrop-blur'
+              : 'bg-transparent'
+          }`}
         >
           <h2 className='text-2xl ml-5 md:text-3xl font-bold text-white'>
             Barbearia <span className='text-yellow-400'>Stilo</span>
@@ -47,23 +49,19 @@ export function Hero() {
 
           <nav className={`${menuOpen ? 'flex flex-col bg-white absolute top-16 left-0 w-full p-4 z-50 space-y-4' : 'hidden'} md:flex md:flex-row md:items-center md:space-x-8`}>
             <a href='' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Home</a>
-            <a href='' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Sobre</a>
+            <a href='#about' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Sobre</a>
             <a href='' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Serviço</a>
             <a href='' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Galeria</a>
             <a href='' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Depoimentos</a>
             <a href='' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Contato</a>
           </nav>
 
-
-
-          <a href='' className='hidden md:flex items-center gap-2 bg-yellow-400 text-white mr-10 px-3 py-2 mt-4 rounded-full transition-transform duration-200 transform hover:scale-105'>
+          <a href='' className='hidden md:flex items-center gap-2 bg-yellow-400 text-white mr-10 px-2 py-2 rounded-full transition-transform duration-200 transform hover:scale-105'>
             Agende seu Horário
           </a>
         </header>
 
-
         <main
-          
           className="relative z-10 flex flex-col items-center justify-center text-center text-white px-4 max-w-4xl mx-auto flex-grow"
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-4" data-aos="fade-down" data-aos-delay='0'>
@@ -75,8 +73,8 @@ export function Hero() {
           <a
             href=""
             className="bg-yellow-400 text-white px-6 py-3 rounded-full text-lg hover:bg-yellow-300 transition duration-200 transform hover:scale-105"
-          data-aos="fade-down"
-          data-aos-delay='400' 
+            data-aos="fade-down"
+            data-aos-delay='400' 
           >
             Agende pelo WhatsApp
           </a>

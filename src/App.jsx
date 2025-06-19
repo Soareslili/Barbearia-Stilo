@@ -2,6 +2,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import { Hero } from './components/Hero';
+import { About } from './components/About';
 
 function App() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <Hero />
+      <About/>
     </>
   );
 }
