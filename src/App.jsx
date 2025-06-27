@@ -6,6 +6,8 @@ import { About } from './components/About';
 import { Service } from './components/Service';
 import { Gallery } from './components/Gallery';
 import { Testimony } from './components/Testimony';
+import { Location } from './components/Location';
+
 
 function App() {
   useEffect(() => {
@@ -21,7 +23,7 @@ function App() {
       <Service/>
       <Gallery />
       <Testimony />
-    
+      <Location/>
     </>
   );
 }
