@@ -14,6 +14,7 @@ export function Gallery() {
   <div className="container mx-auto h-full px-4">
     <div>
       <h2
+      id='gallery'
         className="text-5xl font-bold text-center text-yellow-500 mb-8">
         Nossos <span className="text-white">Trabalhos</span>
       </h2>
@@ -40,7 +41,7 @@ export function Gallery() {
           />
      
           <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-            <span className="text-white text-lg font-semibold">Ver Trabalho</span>
+            <a href='' className="text-white text-lg font-semibold">Ver Trabalho</a>
           </div>
         </div>
       ))}

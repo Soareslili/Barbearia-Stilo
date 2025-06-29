@@ -48,15 +48,15 @@ export function Hero() {
           </button>
 
           <nav className={`${menuOpen ? 'flex flex-col bg-white absolute top-16 left-0 w-full p-4 z-50 space-y-4' : 'hidden'} md:flex md:flex-row md:items-center md:space-x-8`}>
-            <a href='' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Home</a>
+            <a href='#home' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Home</a>
             <a href='#about' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Sobre</a>
-            <a href='' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Serviço</a>
-            <a href='' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Galeria</a>
-            <a href='' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Depoimentos</a>
-            <a href='' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Contato</a>
+            <a href='#service' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Serviço</a>
+            <a href='#gallery' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Galeria</a>
+            <a href='#testimony' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Depoimentos</a>
+            <a href='#location' className='text-black md:text-white text-lg hover:text-yellow-400 transition-colors duration-200'>Contato</a>
           </nav>
 
-          <a href='' className='hidden md:flex items-center gap-2 bg-yellow-400 text-white mr-10 px-2 py-2 rounded-full transition-transform duration-200 transform hover:scale-105'>
+          <a href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20agendar%20um%20horário&type=phone_number&app_absent=0" className='hidden md:flex items-center gap-2 bg-yellow-400 text-white mr-10 px-2 py-2 rounded-full transition-transform duration-200 transform hover:scale-105'>
             Agende seu Horário
           </a>
         </header>
@@ -64,14 +64,14 @@ export function Hero() {
         <main
           className="relative z-10 flex flex-col items-center justify-center text-center text-white px-4 max-w-4xl mx-auto flex-grow"
         >
-          <h1 className="text-4xl md:text-6xl font-bold mb-4" data-aos="fade-down" data-aos-delay='0'>
+          <h1 id='home' className="text-4xl md:text-6xl font-bold mb-4" data-aos="fade-down" data-aos-delay='0'>
             Transforme seu <span className="text-yellow-400">estilo</span>
           </h1>
           <p className="text-lg md:text-xl mb-6" data-aos="fade-down" data-aos-delay='300'>
             Viva sua melhor versão com os cortes tradicionais e modernos em um ambiente acolhedor
           </p>
           <a
-            href=""
+             href="https://api.whatsapp.com/send/?phone=556899998899&text=Olá%20gostaria%20de%20agendar%20um%20horário&type=phone_number&app_absent=0"
             className="bg-yellow-400 text-white px-6 py-3 rounded-full text-lg hover:bg-yellow-300 transition duration-200 transform hover:scale-105"
             data-aos="fade-down"
             data-aos-delay='400' 

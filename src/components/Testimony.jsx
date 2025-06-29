@@ -59,7 +59,7 @@ export function Testimony() {
 
         <section className="bg-zinc-900 py-20">
             <div className="text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">O que nossos <span className="text-yellow-400">clientes</span> dizem</h2>
+                <h2 id="testimony" className="text-4xl md:text-5xl font-bold text-white mb-4">O que nossos <span className="text-yellow-400">clientes</span> dizem</h2>
                 <p className="text-lg text-gray-400">A satisfação dos nossos clientes é nossa maior recompensa.</p>
             </div>
             <div className="mx-w-4xl mx-auto">

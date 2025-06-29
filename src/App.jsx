@@ -7,6 +7,7 @@ import { Service } from './components/Service';
 import { Gallery } from './components/Gallery';
 import { Testimony } from './components/Testimony';
 import { Location } from './components/Location';
+import { Footer } from './components/Footer';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Gallery />
       <Testimony />
       <Location/>
+      <Footer />
     </>
   );
 }

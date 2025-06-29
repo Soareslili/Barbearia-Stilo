@@ -5,7 +5,7 @@ export function Service() {
         <section className="py-20 bg-zinc-900">
             <div className="container mx-auto px-4">
                 <div className="text-center text-white mb-16">
-                    <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Nossos <span className="text-yellow-400">Serviços</span></h2>
+                    <h2 id="service" className="text-4xl md:text-5xl font-bold text-white mb-6">Nossos <span className="text-yellow-400">Serviços</span></h2>
                     <p className="text-gray-300 text-lg max-w-2xl mx-auto">Oferecemos uma gama completa de serviços para cuidar do seu visual com a qualidade que você merece.</p>
                 </div>
 
