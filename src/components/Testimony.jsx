@@ -2,9 +2,9 @@
 import React, { useEffect, useCallback, useState } from "react"
 import useEmblaCarousel from "embla-carousel-react";
 
-import Cliente1 from '../assets/cliente1.jpeg'
-import Cliente2 from '../assets/cliente2.avif'
-import Cliente3 from '../assets/cliente3.jpg'
+import Cliente1 from '../assets/Cliente1.jpeg'
+import Cliente2 from '../assets/Cliente2.avif'
+import Cliente3 from '../assets/Cliente3.jpg'
 
 
 const testimonials = [
